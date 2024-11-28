@@ -15,8 +15,10 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  static const String androidChannelKey = "your android key";
-  static const String iosChannelKey = "your iOS key";
+  static const String androidChannelKey =
+      "eyJzZXR0aW5nc191cmwiOiJodHRwczovL21lYWp1ZGFqZy56ZW5kZXNrLmNvbS9tb2JpbGVfc2RrX2FwaS9zZXR0aW5ncy8wMUhCRVAxWUtFNE02UUsxUjdSODZCVk1FMi5qc29uIn0=";
+  static const String iosChannelKey =
+      "eyJzZXR0aW5nc191cmwiOiJodHRwczovL21lYWp1ZGFqZy56ZW5kZXNrLmNvbS9tb2JpbGVfc2RrX2FwaS9zZXR0aW5ncy8wMUhCSDRKNU1YRTlBTUMyWUtQOEoySzFUSC5qc29uIn0=";
 
   final List<String> channelMessages = [];
   StreamSubscription<int>? unreadMessagesCountSubscription;
